@@ -19,7 +19,7 @@ namespace OregonTrailDotNet.Event.Person
         /// <returns>Describes what type of physical injury has come to the person.</returns>
         protected override string OnPostInjury(Entity.Person.Person person)
         {
-            return $"{person.Name} has sprained a muscle.";
+            return $"{person.Name} was running from the TP hordes and has sprained a muscle.";
         }
     }
 }

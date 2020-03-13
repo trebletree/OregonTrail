@@ -20,7 +20,7 @@ namespace OregonTrailDotNet.Event.Person
         /// <returns>Describes what type of physical injury has come to the person.</returns>
         protected override string OnPostInjury(Entity.Person.Person person)
         {
-            return $"{person.Name} has a concussion.";
+            return $"{person.Name} was trampled buying TP at Walmart and has a concussion.";
         }
     }
 }

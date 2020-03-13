@@ -50,7 +50,7 @@ namespace OregonTrailDotNet.Event.Person
             if (!sourcePerson.Leader)
                 throw new ArgumentException("Cannot kill this person because it is not the player!");
 
-            _leaderDeath.AppendLine($"{sourcePerson.Name} has died.");
+            _leaderDeath.AppendLine($"{sourcePerson.Name} has died from the coronavirus pandemic.");
         }
 
         /// <summary>

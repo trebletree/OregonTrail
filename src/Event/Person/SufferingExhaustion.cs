@@ -19,7 +19,7 @@ namespace OregonTrailDotNet.Event.Person
         /// <returns>Describes what type of physical injury has come to the person.</returns>
         protected override string OnPostInjury(Entity.Person.Person person)
         {
-            return $"{person.Name} is suffering from exhaustion.";
+            return $"{person.Name} is suffering from exhaustion resulting from working from home with their kids.";
         }
     }
 }
